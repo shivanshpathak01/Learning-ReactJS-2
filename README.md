@@ -1,2 +1,2 @@
-# ThemeSwitcher
-App using Reactjs and understanding Context API
+# Learning ReactJS with Hitesh Sir - Advanced Topics 
+
