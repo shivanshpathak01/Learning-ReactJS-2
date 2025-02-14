@@ -1,0 +1,17 @@
+-> In Redux reducers, the payload refers to the data being sent to update the state. It is typically passed within the action object when dispatching an action.
+ex: dispatch({ type: "INCREMENT", payload: 5 }); // count will increase by 5
+
+-> What is dispatch in Redux?
+In Redux, dispatch is a function used to send (or dispatch) actions to the Redux store. It triggers the reducer function, which updates the state based on the action.
+
+How dispatch Works:
+You call dispatch() with an action object.
+The action is sent to the Redux reducer.
+The reducer updates the store based on the action type and payload.
+The UI re-renders with the new state.
+
+-> What is a Reducer in Redux?
+A reducer is a pure function in Redux that takes the current state and an action as input and returns a new state based on the action type
+✔ Reducers do not modify the existing state; they return a new state.
+✔ They must be pure functions (i.e., they do not mutate the state, perform API calls, or have side effects).
+✔ They handle actions that are dispatched to update the Redux store.
